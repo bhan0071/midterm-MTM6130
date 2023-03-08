@@ -1,0 +1,236 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*============ MY STYLES ============= */
+
+body {
+    background-color: #96cfbe;
+}
+
+.container {
+    background-color: #d4e9e7;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+/*=============Style for the header========*/
+
+h1 {
+     position: relative;
+	 transform: translate(-50%, -50%);
+	 font-size: 62px;
+	 font-family: Arial, Helvetica, sans-serif;
+	 left: 50%;
+	 text-align: center;
+	 color: white;
+	 top: 50px;
+}
+
+.esteban {
+	position: relative;
+	color: white;
+	text-align: center;
+	margin-right: 10px;
+	margin-left: 0px;
+	margin-bottom: 7px;
+	margin-top: -15px;
+}
+
+nav .navigation {
+	position: relative;
+	display: flex;
+}
+
+
+/*===========Style for the main styles=============*/
+
+
+.kirito {
+	font-size: 35.10px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 53px;
+	margin-left: 13px;
+}
+
+img {
+	position: relative;
+	width: 245px;
+	height: 258px;
+	float: left;
+	margin-top: 23px;
+	margin-bottom: 35px;
+	margin-left: 10px;
+	margin-right: 22px;
+}
+
+.k322 {
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 1.5;
+	margin-top: 24px;
+	margin-left: 10px;
+	font-size: 16px;
+	margin-right: 20px;
+}
+
+
+.foot {
+    padding-top: 37px;
+	text-align: right;
+	padding-bottom: 39px;
+    font-size: 15.84px;
+	padding-right: 33px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list {
+	font-size: 15px;
+	margin-left: 28px;
+	list-style-type: disc;
+	margin-top: 20px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.contacts {
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 31px;
+	font-size: 32.3px;
+	padding-left: 12.5px;
+	padding-bottom: 18.2px;
+}
+
+.forms {
+	margin: 0 auto;
+	border: 1px solid black;
+	width: 1000px;
+	height: 480px;
+}
+
+
+
+.form1 {
+    font-size: 19px;
+	padding-bottom: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 35px;
+    padding-left: 15px;
+ }
+
+.form2 {
+    font-size: 19px;
+	padding-bottom: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 18px;
+    padding-left: 15px;
+}
+
+.form3 {
+    font-size: 19px;
+	padding-bottom: 9px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
+    padding-left: 15px;	
+}
+
+input {
+       box-sizing: border-box;
+	   width: 975px;
+	   height: 30px;
+	   background-color: #FFFFFF;
+	   border: 1px white;
+	   position: relative;
+	   margin-left: 15px;
+}
+
+textarea {
+	box-sizing: border-box;
+	margin-left: 16px;
+	height: 97px; 
+	width: 975px;
+	border: 1px #aaa9ad;
+	position: relative;
+    background-color: white;
+}
+
+nav .navs {
+	justify-content: space-around;
+	display: flex;
+	flex-flow: row wrap;
+	position: relative;
+}
+
+.lists{
+	margin: 0;
+	padding: 0;
+	border: none;
+	position: relative;
+	flex: 1 1 auto;
+	cursor: pointer;
+	background: none;
+	font-size: 24px;
+	justify-content: space-between;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+}
+
+.lists + .lists {
+	border-left: solid 1px black;
+}
+
+.navs {
+	margin-left: 14px;
+	margin-top: -59px;
+	margin-bottom: -11px;
+}
+
+a:link {
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+  }
+  
+  a:visited {
+	color: black;
+	background-color: transparent;
+	text-decoration: none;
+  }
